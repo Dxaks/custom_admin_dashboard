@@ -20,4 +20,14 @@
     font-style: normal;
 }
 
-
+:root {
+    --header-size: 1.5rem;
+    --paragragh-size: 1.3rem;
+    --content-size: 1rem;
+    --body-bg-clr: aliceblue;
+    --dashboard-bg-clr: rgb(90, 90, 246);
+    --dashboard-txt-clr: whitesmoke;
+    --dashboard-font: 'action_manbold';
+    --paragraph-font: 'action_manbold';
+    --content-font: 'cooper_hewittlight';
+}

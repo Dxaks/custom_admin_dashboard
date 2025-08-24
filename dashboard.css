@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'action_manbold';
+    src: url('fonts/action_man_bold-webfont.woff2') format('woff2'),
+         url('fonts/action_man_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cooper_hewittlight';
+    src: url('fonts/cooperhewitt-light-webfont.woff2') format('woff2'),
+         url('fonts/cooperhewitt-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

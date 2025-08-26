@@ -1,9 +1,11 @@
+/* resetting default margin and padding box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* add custom fonts for the project */
 @font-face {
     font-family: 'action_manbold';
     src: url('fonts/action_man_bold-webfont.woff2') format('woff2'),
@@ -20,6 +22,7 @@
     font-style: normal;
 }
 
+/* create custom properties for styling */
 :root {
     --header-size: 1.5rem;
     --paragragh-size: 1.3rem;
@@ -30,4 +33,36 @@
     --dashboard-font: 'action_manbold';
     --paragraph-font: 'action_manbold';
     --content-font: 'cooper_hewittlight';
+}
+
+header {
+    background-color: var(--dashboard-bg-clr);
+}
+
+header > div {
+    border: 1px solid black;
+     margin-top: 10px;
+}
+
+svg {
+  width: 2rem;
+  fill: var(--dashboard-txt-clr);
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr))
+}
+
+header {
+    grid-column: 1;
+    grid-row: 1 / 5;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
